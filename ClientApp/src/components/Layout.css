@@ -1,7 +1,12 @@
 ﻿div .pageHeader {
-    height: 100px;
-    background-color: #e6e6e6;
-    box-shadow: 5px 10px 18px #888888;
+    height: 80px;
+    width: 100%;
+    background-color: #166466;
+    box-shadow: 5px 1px 7px #2C3531;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
 }
 
     div .pageHeader img {
@@ -13,7 +18,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: large;
+    
     margin-right: 20px;
     display: block;
     overflow: hidden;
@@ -23,33 +28,34 @@
 .navigationBar li {
     display: inline;
     margin-right: 20px;
-    margin-top: 35px;
+    margin-top: 30px;
     float: right;
 }
 
     .navigationBar li a {
-        color: maroon;
+        color: gold;
         display: inline-block;
         vertical-align: middle;
-        -webkit-transform: perspective(1px) translateZ(0);
-        transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-        position: relative;
+        -webkit-transform: perspective(0) translateZ(0);
+        transform: perspective(0px) translateZ(0);
+        font-family: Vollkorn ;
         overflow: hidden;
         text-decoration: none;
-        font-size: 22px;
-        margin: 0px 10px;
+        font-size: 15px;
+        font-weight: 600;
     }
 
         .navigationBar li a:before {
+            
+            text-decoration: none;
             content: "";
             position: absolute;
-            z-index: -1;
+            z-index: 0;
             left: 0;
             right: 0;
-            bottom: 0;
+            bottom: 0px;
             background: orange;
-            height: 4px;
+            height: 3px;
             -webkit-transform: translateY(4px);
             transform: translateY(4px);
             -webkit-transition-property: transform;
@@ -83,9 +89,11 @@
     }
 
 .container {
-    background-color: #e6e6e6;
-    height: Calc(100vh - 100px);
-    width: 100%
+    background-color: #166466;
+    height: Calc(100vh - 80px);
+    width: 100vw;
+    padding: 0;
+    
 }
 
 .companyLogo {
@@ -96,8 +104,8 @@
     overflow: hidden;
     font-family: Impact;
     font-weight: bold;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 
@@ -107,5 +115,39 @@
     overflow: hidden;
 }
 
-.companyLogo h2 {
+.home {
+    background-color: #116466;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.home .col1 {
+    flex: 1;
+    display: block;
+    color: white;
+    align-items: center;
+    justify-content: center
+}
+
+    .home .col1 h1 {
+        flex: 1;
+        color: white;
+        text-align:center;
+        
+        
+    }
+
+.home .col2 {
+    
+    flex: 1;
+
+}
+
+.aboutUs {
+    background-color: #D1E8E2;
+    height: 700px;
+    width: 100%;
 }

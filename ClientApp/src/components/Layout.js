@@ -12,14 +12,12 @@ export class Layout extends Component {
     return (
         <div>
             <div className="pageHeader">
-                <h2 className="companyLogo">
+                <h3 className="companyLogo">
                     <span><img src="resources/logo.png" alt="Smiley face" width="62" height="62"></img></span>IDEA TECHNOLOGY SOLUTION JSC
-                </h2>
+                </h3>
 
                 <nav className="navigationBar">
-                    
                     <ul>
-                        
                         <li><button>Register</button></li>
                         <li><button>Sign in</button></li>
                         <li><a href="#opportunities">OPPORTUNITIES</a></li>
@@ -29,14 +27,21 @@ export class Layout extends Component {
                         <li><a href="#cadcamcae">CAD/CAM/CAE</a></li>
                         <li><a href="#aboutus">ABOUT US</a></li>
                         <li><a href="#home">HOME</a></li>
-                        
                     </ul>
                 </nav>
-               
-     
             </div>
             <div className="container">
-                
+                <div className="home">
+                    <div className="col1">
+                        <h1>WE DELIVER</h1>
+                    </div>
+                    <div className="col2">
+                        <p>asdasdasdasdasd</p>
+                    </div>
+                </div>
+                <div className="aboutUs">
+                    asdasdasdasd
+                </div>
             </div>
         </div>
     );
