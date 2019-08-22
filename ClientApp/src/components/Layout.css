@@ -93,7 +93,6 @@
     height: Calc(100vh - 80px);
     width: 100vw;
     padding: 0;
-    
 }
 
 .companyLogo {
@@ -113,41 +112,4 @@
     display: inline;
     float: right;
     overflow: hidden;
-}
-
-.home {
-    background-color: #116466;
-    height: 700px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 80px;
-}
-
-.home .col1 {
-    flex: 1;
-    display: block;
-    color: white;
-    align-items: center;
-    justify-content: center
-}
-
-    .home .col1 h1 {
-        flex: 1;
-        color: white;
-        text-align:center;
-        
-        
-    }
-
-.home .col2 {
-    
-    flex: 1;
-
-}
-
-.aboutUs {
-    background-color: #D1E8E2;
-    height: 700px;
-    width: 100%;
 }
