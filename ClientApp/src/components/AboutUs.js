@@ -19,7 +19,7 @@ export class AboutUs extends Component {
                         </p>
                         </Row>
                         <Row className="yearsOfDevelopment">
-                            < Col sm={6} md={3} >
+                            <Col sm={6} md={3} >
                                 <div className="developmentYear">
                                     <h1> 08/1926 </h1>
                                     <hr></hr>
@@ -58,6 +58,7 @@ export class AboutUs extends Component {
                                 </p>
                                 </div>
                             </Col>
+
                         </Row>
                     </Grid>
                 </div>

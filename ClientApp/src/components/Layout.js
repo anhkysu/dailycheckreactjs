@@ -3,6 +3,9 @@ import './Layout.css';
 import { Home } from './Home';
 import { AboutUs } from './AboutUs';
 import { OutsourcingServices} from './OutsourcingServices';
+import { ResearchAndDevelopment } from './ResearchAndDevelopment';
+import { EducationAndTraining } from './EducationAndTraining';
+import { Opportunities } from './Opportunities';
 
 export class Layout extends Component {
     displayName = Layout.name
@@ -31,8 +34,11 @@ export class Layout extends Component {
             </div>
             <div className="container">
                 <Home></Home>
-                <AboutUs></AboutUs>
-                
+                  <AboutUs></AboutUs>
+                  <OutsourcingServices></OutsourcingServices>
+                  <ResearchAndDevelopment></ResearchAndDevelopment>
+                  <EducationAndTraining></EducationAndTraining>
+                  <Opportunities></Opportunities>
             </div>
         </div>
     );

@@ -1,0 +1,133 @@
+﻿.opportunitiesContainer {
+    
+    background-image: url("opportunities.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 300px;
+}
+
+.headerOpportunities {
+    font-size: 100px;
+    color: gold;
+    text-shadow: 3px 1px 3px black;
+    font-family: Verdana;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.overviewOpportunities {
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New';
+    text-align: justify;
+}
+
+
+.descriptionOpportunities img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descriptionOpportunities {
+    margin-top: 30px;
+}
+
+    .descriptionOpportunities p {
+        text-align: justify;
+        line-height: 2;
+        color: white;
+        font-size: 23px;
+        font-family: 'Courier New';
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+.descriptionOpportunitiesText h1 {
+    color: white;
+}
+
+.descriptionOpportunitiesText {
+    margin-left: 30px;
+}
+
+
+.whatKindOfOpportunities input {
+    float: left;
+    margin-top: 60px;
+    width: 500px;
+    height: 60px;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px #2C3531;
+    margin-left: 200px;
+}
+
+.whatKindOfOpportunities {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    align-content: center;
+}
+
+.whatKindOfOpportunities button {
+    float: left;
+    margin-top: 60px;
+    height: 60px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: white;
+    margin-left: -3px;
+    background-color: white;
+    box-shadow: 3px 0px 10px #2C3531;
+}
+
+.seeInformationOpportunities {
+    align-content: center;
+    align-items: center;
+}
+
+.seeInformationOpportunities .seeInformation {
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #2C3531;
+    font-family: Calibri;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    transition: all 0.5s;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+    .seeInformationOpportunities .seeInformation span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.3s;
+    }
+
+        .seeInformationOpportunities .seeInformation span:after {
+            content: '➙';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    .seeInformationOpportunities .seeInformation:hover span {
+        padding-right: 45px;
+    }
+
+        .seeInformationOpportunities .seeInformation:hover span:after {
+            opacity: 1;
+            right: 0;
+        }

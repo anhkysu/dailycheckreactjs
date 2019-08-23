@@ -1,5 +1,150 @@
-﻿.outsourcingServices {
+﻿.outsourcingServiceDetail1 {
     background-color: #166466;
     width: 100%;
     height: 100vh;
+    padding: 0px 300px;
+}
+
+.outsourcingServiceDetail2 {
+    background-color: #166466;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 300px;
+}
+
+.outsourcingServiceDetail3 {
+    background-color: #166466;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 300px;
+}
+
+.outsourcingServiceDetail4 {
+    background-color: #166466;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 300px;
+}
+
+.outsourcingServiceDetail4 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .outsourcingServiceDetail4 h1 {
+        color: white;
+        margin-left: 100px;
+    }
+
+.headerOutsourcing {
+    font-size: 100px;
+    color: gold;
+    text-shadow: 3px 1px 3px black;
+    font-family: Verdana;
+    font-weight: 600;
+}
+
+.overviewOutsourcingServices {
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New';
+    text-align: justify;
+}
+
+
+.ourStaffDescriptionImages img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ourStaffDescription {
+    margin-top: 30px;
+}
+
+.ourStaffDescriptionText p {
+    text-align: justify;
+    line-height: 2;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New';
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ourStaffDescriptionText h1 {
+    color: white;
+}
+
+.ourStaffDescriptionText {
+    margin-left: 30px;
+}
+
+
+.whatCanWeDoForYou img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.whatCanWeDoForYou {
+    margin-top: 30px;
+}
+
+.whatCanWeDoForYouText p {
+    text-align: justify;
+    line-height: 2;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New';
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.whatCanWeDoForYouText h1 {
+    color: white;
+}
+
+.whatCanWeDoForYouText {
+    margin-left: 30px;
+}
+
+
+
+.cadCamCae img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.cadCamCae {
+    margin-top: 30px;
+}
+
+.cadCamCae p {
+    text-align: justify;
+    line-height: 2;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New';
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cadCamCae h1 {
+    color: white;
+    text-align: center
+}
+
+.cadCamCae {
+    margin-left: 30px;
 }
