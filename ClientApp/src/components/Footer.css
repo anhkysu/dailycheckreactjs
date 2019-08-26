@@ -1,0 +1,20 @@
+﻿.footerContainer {
+    background-color: #2C3531;
+    height: 25vh;
+    width: 100vw;
+    padding: 30px 30px 30px 30px;
+}
+
+.footerContainer h3 {
+    text-align: center;
+    color: white;
+}
+
+    .footerContainer h4 {
+        text-align: center;
+        color: white;
+    }
+
+    .footerContainer h4 img {
+        margin-right: 10px;
+    }

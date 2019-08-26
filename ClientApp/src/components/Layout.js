@@ -6,6 +6,9 @@ import { OutsourcingServices} from './OutsourcingServices';
 import { ResearchAndDevelopment } from './ResearchAndDevelopment';
 import { EducationAndTraining } from './EducationAndTraining';
 import { Opportunities } from './Opportunities';
+import { Footer } from './Footer';
+import { CopyRight } from './CopyRight';
+
 
 export class Layout extends Component {
     displayName = Layout.name
@@ -39,6 +42,8 @@ export class Layout extends Component {
                   <ResearchAndDevelopment></ResearchAndDevelopment>
                   <EducationAndTraining></EducationAndTraining>
                   <Opportunities></Opportunities>
+                  <Footer></Footer>
+                  <CopyRight></CopyRight>
             </div>
         </div>
     );

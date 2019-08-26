@@ -1,0 +1,14 @@
+﻿.copyRightContainer {
+    background-color: black;
+    height: 5vh;
+    width: 100vw;
+    padding-left: 30px;   
+    display: flex;
+    align-items: center;
+}
+
+
+    .copyRightContainer h4 {
+        color: white;
+        
+    }
