@@ -1,0 +1,16 @@
+﻿
+.svg-icon {
+    width: 2em;
+    height: 2em;
+}
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+        fill: gold;
+    }
+
+    .svg-icon circle {
+        stroke: #4691f6;
+        stroke-width: 1;
+    }

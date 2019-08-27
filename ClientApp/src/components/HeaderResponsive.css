@@ -1,0 +1,27 @@
+﻿@media only screen and (max-width: 1300px){
+    .navigationBar li a, .navigationBar li .langButton {
+        display: none;
+    }   
+}
+
+@media only screen and (min-width: 1300px) {
+    .navigationBar li .hamButton {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .companyLogo h3 {
+        font-size: 15px;
+    }  
+
+    .companyLogo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    :root {
+        --header-size: 60px;
+    }
+}
+
