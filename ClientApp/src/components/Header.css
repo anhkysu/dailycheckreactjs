@@ -1,4 +1,6 @@
-﻿:root {
+﻿@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+:root {
     --header-size: 80px;
 }
 
@@ -42,26 +44,32 @@
             color: gold;
             text-shadow: 1px 1px 2px black;
             font-size: 15px;
-            font-family: Arial;
-            font-weight: 600;
+            font-family: 'Raleway';
+            font-weight: 500;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
-        .navigationBar li button {
-            display: block;
-            color: #666;
-            text-align: center;
-            padding: 14px 16px;
-        }
+            .navigationBar li a:after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: orange;
+                transition: width .3s;
+            }
+
+            .navigationBar li a:hover:after {
+                width:100%;
+            }
+
+
 
 .hamButton {
     background-color: transparent;
     border: none;
 }
-
-
 
 .companyLogo {
     display: flex;
@@ -82,3 +90,78 @@
         text-align: center;
     }
 
+.page Header MenuItem {
+    color: white;
+}
+
+
+.authorizationButtons {
+    position: relative;
+    display: inline-block;
+    
+}
+
+    .authorizationButtons button {
+        background-color: transparent;
+        color: white;
+        padding: 6px;
+        font-size: 15px;
+        font-family: Calibri;
+        border-width: 0.5px;
+        border-radius: 3px;
+        border-color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+
+
+.langButton {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Calibri;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.langDropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.langList {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+    .langList a {
+        color: gray;
+        padding: 6px 8px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .langList a:hover {
+            background-color: #f1f1f1
+        }
+
+.langDropdown:hover .langList {
+    display: block;
+    
+}
+
+.langDropdown:hover .langButton {
+    background-color: #196e70;
+}

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import './Layout.css';
 import { Home } from './Home';
 import { AboutUs } from './AboutUs';
@@ -9,6 +9,7 @@ import { Opportunities } from './Opportunities';
 import { Footer } from './Footer';
 import { CopyRight } from './CopyRight';
 import { Header } from './Header';
+import { HeaderSideBar } from './HeaderSideBar';
 
 export class Layout extends Component {
     displayName = Layout.name
@@ -16,21 +17,21 @@ export class Layout extends Component {
   render() {
       return (
           <div>
+              <HeaderSideBar></HeaderSideBar>
               <Header></Header>
               {/*
             <div className="container">
                   <Home></Home>
-                  
-                   <AboutUs></AboutUs>
+                  <AboutUs></AboutUs>
                   <OutsourcingServices></OutsourcingServices>
                   <ResearchAndDevelopment></ResearchAndDevelopment>
                   <EducationAndTraining></EducationAndTraining>
                   <Opportunities></Opportunities>
                   <Footer></Footer>
                   <CopyRight></CopyRight>
-                   
+                    
             </div>
-            */}
+           */}
         </div>
     );
   }

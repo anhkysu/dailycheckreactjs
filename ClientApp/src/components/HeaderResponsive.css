@@ -1,5 +1,11 @@
-﻿@media only screen and (max-width: 1300px){
-    .navigationBar li a, .navigationBar li .langButton {
+﻿@media only screen and (max-width: 1550px) {
+    .authorizationButtons {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .navigationBar li a, .langDropdown {
         display: none;
     }   
 }
