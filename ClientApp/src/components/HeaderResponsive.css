@@ -1,16 +1,16 @@
-﻿@media only screen and (max-width: 1550px) {
+﻿@media only screen and (max-width: 1570px) {
     .authorizationButtons {
         display: none;
     }
 }
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1350px){
     .navigationBar li a, .langDropdown {
         display: none;
     }   
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1350px) {
     .navigationBar li .hamButton {
         display: none;
     }

@@ -8,34 +8,24 @@ import './SVGIcon.css'
 
 export class Header extends Component {
     displayName = Header.name
-
-
-
-
     render() {
-        
-
         return (
             <div className="pageHeader">
                 
-                <Row>
-                    <Col xs={9} md={5}>
+                    <Col xs={10} md={5}>
                         <div className="companyLogo">
                             <img src="resources/logo.png" alt="Smiley face" width="60" height="60"></img>
                             <h3>IDEA TECHNOLOGY SOLUTION JSC</h3>
                         </div>
                     </Col>
 
-                    <Col xs={3} md={7}>
+                    <Col xs={2} md={7}>
                         <div className="navigationBar">
-
-                            
-
                              <nav>
                                 <ul>
                                     <li>
                                         <button className="hamButton" onClick={() => { document.getElementById("mySideBar").style.height="100%" }}>
-                                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <svg className="svg-icon" viewBox="0 0 20 20">
 	                                            <path fill="none" d="M7.228,11.464H1.996c-0.723,0-1.308,0.587-1.308,1.309v5.232c0,0.722,0.585,1.308,1.308,1.308h5.232
 		                                            c0.723,0,1.308-0.586,1.308-1.308v-5.232C8.536,12.051,7.95,11.464,7.228,11.464z M7.228,17.351c0,0.361-0.293,0.654-0.654,0.654
 		                                            H2.649c-0.361,0-0.654-0.293-0.654-0.654v-3.924c0-0.361,0.292-0.654,0.654-0.654h3.924c0.361,0,0.654,0.293,0.654,0.654V17.351z
@@ -79,7 +69,7 @@ export class Header extends Component {
                         </div>
                     </Col>
 
-                </Row>
+                
                 
                 {/*
                  */}

@@ -11,17 +11,32 @@ import { CopyRight } from './CopyRight';
 import { Header } from './Header';
 import { HeaderSideBar } from './HeaderSideBar';
 
+import { Col, Grid, Row } from 'react-bootstrap';
+
 export class Layout extends Component {
     displayName = Layout.name
 
   render() {
       return (
-          <div>
+          <Grid fluid>
+              
+              <Row style={{ position: "fixed", zIndex: 1, top: 0, margin:0, padding: 0 }}>
+                  <Header></Header>
+              </Row>
               <HeaderSideBar></HeaderSideBar>
-              <Header></Header>
-              {/*
-            <div className="container">
+              <Row className="rowForHome">   
                   <Home></Home>
+              </Row>
+              <Row>
+                  <Home></Home>
+              </Row>
+              
+              
+              
+              {/*
+              <div className="container">
+                  <TestComponent></TestComponent> 
+                      <Home></Home>
                   <AboutUs></AboutUs>
                   <OutsourcingServices></OutsourcingServices>
                   <ResearchAndDevelopment></ResearchAndDevelopment>
@@ -29,10 +44,13 @@ export class Layout extends Component {
                   <Opportunities></Opportunities>
                   <Footer></Footer>
                   <CopyRight></CopyRight>
-                    
-            </div>
-           */}
-        </div>
+                   
+              </div>
+              */} 
+          </Grid>
     );
   }
 }
+
+
+
