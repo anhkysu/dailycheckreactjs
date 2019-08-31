@@ -7,9 +7,13 @@ export class Home extends Component {
 
   render() {
     return (
-        <div className="home">
-            
-
+        <div >
+            <Row style={{padding: 0 }}>
+                <Col xs={12} sm={3} md={6} style={{ backgroundColor: "whitesmoke", height: "100vh"}}>
+            </Col>
+                <Col xs={12} sm={9} md={6} style={{ backgroundColor: "gray", height: "100vh"}}>
+            </Col>
+            </Row>
             {/*<div className="col1">
                   <h1 className="weDeliver">WE DELIVER</h1>
                   <h1 className="highQuality">HIGH QUALITY</h1>

@@ -20,16 +20,14 @@ export class Layout extends Component {
       return (
           <Grid fluid>
               
-              <Row style={{ position: "fixed", zIndex: 1, top: 0, margin:0, padding: 0 }}>
+              <Row style={{ height: "80px", position: "fixed", zIndex: 1, top: 0}}>
                   <Header></Header>
               </Row>
               <HeaderSideBar></HeaderSideBar>
               <Row className="rowForHome">   
                   <Home></Home>
               </Row>
-              <Row>
-                  <Home></Home>
-              </Row>
+              
               
               
               
