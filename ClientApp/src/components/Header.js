@@ -10,8 +10,7 @@ export class Header extends Component {
     displayName = Header.name
     render() {
         return (
-            <div className="pageHeader">
-                
+            <Row className="pageHeader">
                     <Col xs={10} md={5}>
                         <div className="companyLogo">
                             <img src="resources/logo.png" alt="Smiley face" width="60" height="60"></img>
@@ -68,12 +67,9 @@ export class Header extends Component {
 
                         </div>
                     </Col>
-
-                
-                
                 {/*
                  */}
-            </div>
+            </Row>
         );
     }
 }

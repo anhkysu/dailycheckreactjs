@@ -19,7 +19,6 @@ export class Layout extends Component {
   render() {
       return (
           <Grid fluid>
-              
               <Row style={{ height: "80px", position: "fixed", zIndex: 1, top: 0}}>
                   <Header></Header>
               </Row>
@@ -27,10 +26,6 @@ export class Layout extends Component {
               <Row className="rowForHome">   
                   <Home></Home>
               </Row>
-              
-              
-              
-              
               {/*
               <div className="container">
                   <TestComponent></TestComponent> 
@@ -42,7 +37,6 @@ export class Layout extends Component {
                   <Opportunities></Opportunities>
                   <Footer></Footer>
                   <CopyRight></CopyRight>
-                   
               </div>
               */} 
           </Grid>
